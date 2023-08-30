@@ -1,41 +1,41 @@
+var baseHref = location.pathname.endsWith("index.html")
+  ? ""
+  : "/travelkh/index.html";
+
 var navbarData = [
-  { id: 1, name: "Home", name_kh: "ទំព័រដើម", href: "../index.html#home" },
+  { id: 1, name: "Home", name_kh: "ទំព័រដើម", href: baseHref + "#home" },
   {
     id: 2,
     name: "Popular",
     name_kh: "តំបន់ពេញនិយម",
-    href: "../index.html#popular",
+    href: baseHref + "#popular",
   },
   {
     id: 3,
     name: "Ancient Temple",
     name_kh: "តំបន់ស្រស់បំព្រង",
-    href: "../index.html#ancient_temple",
+    href: baseHref + "#ancient_temple",
   },
   {
     id: 4,
     name: "Natural",
     name_kh: "តំបន់ធម្មជាតិ",
-    href: "../index.html#natural",
+    href: baseHref + "#natural",
   },
   {
     id: 5,
     name: "Reviewer",
     name_kh: "អ្នករុករកតំបន់ទេសចរណ៍",
-    href: "../index.html#reviewer",
+    href: baseHref + "#reviewer",
   },
 ];
-$.each(navbarData, function (key, value) {
-  var content = "";
-  for (var i = 0, { length } = navbarData; i < length; i++) {
-    var href = navbarData[i].href.replace("../index.html#", "./index.html#");
 
-    content +=
-      "<a onclick='myFunction(event)' href='" +
-      href +
-      "'>" +
-      navbarData[i].name_kh +
-      "</a>";
-  }
-  $("#navbar").html(content);
+$.each(navbarData, function (key, value) {
+  var content =
+    "<a onclick='myFunction(event)' href='" +
+    value.href +
+    "'>" +
+    value.name_kh +
+    "</a>";
+  $("#navbar").append(content);
 });
