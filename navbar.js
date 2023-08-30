@@ -1,6 +1,7 @@
-var baseHref = location.pathname.endsWith("index.html")
-  ? ""
-  : "/travelkh/index.html";
+// var baseHref = location.pathname.endsWith("index.html")
+//   ? ""
+//   : "/travelkh/index.html";
+var baseHref = location.pathname.endsWith("index.html") ? "" : "/index.html";
 
 var navbarData = [
   { id: 1, name: "Home", name_kh: "ទំព័រដើម", href: baseHref + "#home" },
