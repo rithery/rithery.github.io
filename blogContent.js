@@ -1,7 +1,7 @@
 var popular = [
   {
     id: 1,
-    author: "Men Puthpanha",
+    author: "Coding with Dev",
     title: "កោះរ៉ុង ​ជា​កោះមួយ​ក្នុង​ខេត្ត​ព្រះ​សីហនុ",
     src: "./images/koh_rong.jpg",
     alt: "koh rong",
@@ -11,7 +11,7 @@ var popular = [
   },
   {
     id: 2,
-    author: "Thoeun Rithe",
+    author: "Coding with Dev",
     title: "តំបន់ទេសចរណ៍ធម្មជាតិភ្នំ១៥០០ «ផ្លូវបុប្ផាលាក់ខ្លួន»",
     src: "images/popular2.jpg",
     alt: "phnom1500",
@@ -21,7 +21,7 @@ var popular = [
   },
   {
     id: 3,
-    author: "Thoeun Rithe",
+    author: "Coding with Dev",
     title: "សម្រស់កោះកុងក្រៅ ឆ្នេរខ្សាច់ស ទឹកថ្លាធ្លុះដល់បាត",
     src: "images/kohkong2.jpeg",
     alt: "koh kong krav",
@@ -65,7 +65,7 @@ $.each(popular, function (key, value) {
 var natural = [
   {
     id: 1,
-    author: "Men Puthpanha",
+    author: "Coding with Dev",
     title: "កោះរ៉ុង ​ជា​កោះមួយ​ក្នុង​ខេត្ត​ព្រះ​សីហនុ",
     src: "./images/koh_rong.jpg",
     alt: "koh rong",
@@ -75,7 +75,7 @@ var natural = [
   },
   {
     id: 2,
-    author: "Thoeun Rithe",
+    author: "Coding with Dev",
     title: "សម្រស់កោះកុងក្រៅ ឆ្នេរខ្សាច់ស ទឹកថ្លាធ្លុះដល់បាត",
     src: "images/kohkong2.jpeg",
     alt: "koh kong krav",
@@ -85,7 +85,7 @@ var natural = [
   },
   {
     id: 3,
-    author: "Hing Sophat",
+    author: "Coding with Dev",
     title: "សម្រស់បឹងយក្សលោម",
     src: "images/yeak_lom_6.jpg",
     alt: "boeung yeak lorm",
@@ -95,7 +95,7 @@ var natural = [
   },
   {
     id: 4,
-    author: "Phan Sopheaktra",
+    author: "Coding with Dev",
     title:
       "«ឆ្នេរតាបារាំង» ទឹករាក់ ខ្សាច់សក្បុស ខ្យល់អាកាសបរិសុទ្ធ ទេសភាពស្អាតៗ",
     src: "images/tabarang.jpg",
